@@ -8,7 +8,7 @@
 4.whereBetween("field1","value1","value2")
 5.whereNotBetween("field1","value1","value2")
 6.orWhere("field1","operator","value")
-7.whereIn(field,"value1,value2,value3,.....")
+7.whereIn(field,valuearray)
 //select
 8.select()
 9.orderby("columnname");
