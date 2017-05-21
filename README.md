@@ -5,10 +5,10 @@
 2.join("tablename","field1","operator","field2","jointype");  //used to join a table
 //where conditions
 3.where("field1","operator","value");       //used to where condition]
-4.whereBetween()
-5.whereNotBetween()
-6.orWhere()
-7.whereIn()
+4.whereBetween("field1","value1","value2")
+5.whereNotBetween("field1","value1","value2")
+6.orWhere("field1","operator","value")
+7.whereIn(field,"value1,value2,value3,.....")
 //select
 8.select()
 9.orderby("columnname");
