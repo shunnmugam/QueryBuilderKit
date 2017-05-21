@@ -1,10 +1,10 @@
 <?php
 class QB
 {
-	const V_DB_SERVER = "localhost";
-    const V_DB_USER = "redwebde_rwsrest";
-    const V_DB_PASSWORD = "N!*eiGO_tQz7";
-    const V_DB = "redwebde_rws_restaurant";
+    const V_DB_SERVER = "localhost";
+    const V_DB_USER = "*************";
+    const V_DB_PASSWORD = "*************";
+    const V_DB = "db_name";
     //public $validationdb = NULL;
 
     public $table;
